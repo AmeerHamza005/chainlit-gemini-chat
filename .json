@@ -1,0 +1,6 @@
+import json
+
+with open("chat_history.json", "r", encoding="utf-8") as f:
+    chat_history = json.load(f)
+
+print(chat_history)
